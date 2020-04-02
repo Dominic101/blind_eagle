@@ -1,0 +1,3 @@
+/home/dominic/kim_ws/devel/lib/libKimeraRPGO.so
+/home/dominic/kim_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOTargets.cmake
+/home/dominic/kim_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOTargets-release.cmake

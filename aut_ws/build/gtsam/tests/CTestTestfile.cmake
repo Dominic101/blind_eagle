@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: /home/dominic/kim_ws/src/gtsam/tests
+# Build directory: /home/dominic/kim_ws/build/gtsam/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(testBoundingConstraint "/home/dominic/kim_ws/build/gtsam/tests/testBoundingConstraint")
+add_test(testDoglegOptimizer "/home/dominic/kim_ws/build/gtsam/tests/testDoglegOptimizer")
+add_test(testExpressionFactor "/home/dominic/kim_ws/build/gtsam/tests/testExpressionFactor")
+add_test(testExtendedKalmanFilter "/home/dominic/kim_ws/build/gtsam/tests/testExtendedKalmanFilter")
+add_test(testGaussianBayesTreeB "/home/dominic/kim_ws/build/gtsam/tests/testGaussianBayesTreeB")
+add_test(testGaussianFactorGraphB "/home/dominic/kim_ws/build/gtsam/tests/testGaussianFactorGraphB")
+add_test(testGaussianISAM "/home/dominic/kim_ws/build/gtsam/tests/testGaussianISAM")
+add_test(testGaussianISAM2 "/home/dominic/kim_ws/build/gtsam/tests/testGaussianISAM2")
+add_test(testGaussianJunctionTreeB "/home/dominic/kim_ws/build/gtsam/tests/testGaussianJunctionTreeB")
+add_test(testGeneralSFMFactorB "/home/dominic/kim_ws/build/gtsam/tests/testGeneralSFMFactorB")
+add_test(testGradientDescentOptimizer "/home/dominic/kim_ws/build/gtsam/tests/testGradientDescentOptimizer")
+add_test(testGraph "/home/dominic/kim_ws/build/gtsam/tests/testGraph")
+add_test(testIterative "/home/dominic/kim_ws/build/gtsam/tests/testIterative")
+add_test(testLie "/home/dominic/kim_ws/build/gtsam/tests/testLie")
+add_test(testManifold "/home/dominic/kim_ws/build/gtsam/tests/testManifold")
+add_test(testMarginals "/home/dominic/kim_ws/build/gtsam/tests/testMarginals")
+add_test(testNonlinearEquality "/home/dominic/kim_ws/build/gtsam/tests/testNonlinearEquality")
+add_test(testNonlinearFactor "/home/dominic/kim_ws/build/gtsam/tests/testNonlinearFactor")
+add_test(testNonlinearFactorGraph "/home/dominic/kim_ws/build/gtsam/tests/testNonlinearFactorGraph")
+add_test(testNonlinearISAM "/home/dominic/kim_ws/build/gtsam/tests/testNonlinearISAM")
+add_test(testNonlinearOptimizer "/home/dominic/kim_ws/build/gtsam/tests/testNonlinearOptimizer")
+add_test(testPCGSolver "/home/dominic/kim_ws/build/gtsam/tests/testPCGSolver")
+add_test(testPreconditioner "/home/dominic/kim_ws/build/gtsam/tests/testPreconditioner")
+add_test(testRot3Optimization "/home/dominic/kim_ws/build/gtsam/tests/testRot3Optimization")
+add_test(testSerializationSLAM "/home/dominic/kim_ws/build/gtsam/tests/testSerializationSLAM")
+add_test(testSimulated2D "/home/dominic/kim_ws/build/gtsam/tests/testSimulated2D")
+add_test(testSimulated2DOriented "/home/dominic/kim_ws/build/gtsam/tests/testSimulated2DOriented")
+add_test(testSimulated3D "/home/dominic/kim_ws/build/gtsam/tests/testSimulated3D")
+add_test(testSubgraphPreconditioner "/home/dominic/kim_ws/build/gtsam/tests/testSubgraphPreconditioner")
+add_test(testSubgraphSolver "/home/dominic/kim_ws/build/gtsam/tests/testSubgraphSolver")
+add_test(testVisualISAM2 "/home/dominic/kim_ws/build/gtsam/tests/testVisualISAM2")

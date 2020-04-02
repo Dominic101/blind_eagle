@@ -1,0 +1,15 @@
+/home/dominic/kim_ws/build/kimera_vio/testKimeraVIO: error while loading shared libraries: libvtkFiltersStatistics-8.1.so.1: cannot open shared object file: No such file or directory
+CMake Error at /usr/share/cmake-3.10/Modules/GoogleTestAddTests.cmake:39 (message):
+  Error running test executable.
+
+    Path: '/home/dominic/kim_ws/build/kimera_vio/testKimeraVIO'
+    Result: 127
+    Output:
+      
+
+
+
+make[2]: *** [testKimeraVIO] Error 1
+make[2]: *** Deleting file 'testKimeraVIO'
+make[1]: *** [CMakeFiles/testKimeraVIO.dir/all] Error 2
+make: *** [all] Error 2

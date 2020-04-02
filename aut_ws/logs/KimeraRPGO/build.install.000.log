@@ -1,0 +1,8 @@
+[ 80%] Built target KimeraRPGO
+[100%] Built target RpgoReadG2o
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/dominic/kim_ws/devel/lib/libKimeraRPGO.so
+-- Set runtime path of "/home/dominic/kim_ws/devel/lib/libKimeraRPGO.so" to ""
+-- Installing: /home/dominic/kim_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOTargets.cmake
+-- Installing: /home/dominic/kim_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOTargets-release.cmake

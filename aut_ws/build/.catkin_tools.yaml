@@ -1,0 +1,6 @@
+devel_space: /home/dominic/kim_ws/devel
+install: false
+install_space: /home/dominic/kim_ws/install
+profile: default
+source_space: /home/dominic/kim_ws/src
+workspace: /home/dominic/kim_ws

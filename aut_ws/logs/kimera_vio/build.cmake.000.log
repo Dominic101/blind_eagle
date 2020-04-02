@@ -1,0 +1,104 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The CXX compiler identification is GNU 7.5.0
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m ==============================================================
+[36m--[0m ====================  Dependencies ===========================
+[36m--[0m Looking for C++ include pthread.h
+[36m--[0m Looking for C++ include pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - not found
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Boost version: 1.65.1
+[36m--[0m Found the following Boost libraries:
+[36m--[0m   filesystem
+[36m--[0m   serialization
+[36m--[0m   regex
+[36m--[0m   timer
+[36m--[0m   date_time
+[36m--[0m   thread
+[36m--[0m   system
+[36m--[0m   chrono
+[36m--[0m   atomic
+[36m--[0m Found installed version of gflags: /usr/local/lib/cmake/gflags
+[36m--[0m Detected gflags version: 2.2.2
+[36m--[0m Found Gflags: /usr/local/include
+[36m--[0m Found installed version of glog: /usr/local/lib/cmake/glog
+[36m--[0m Detected glog version: 0.4.0
+[36m--[0m Found Glog: glog::glog (Required is at least version "0.3.5")
+[36m--[0m GTSAM include directory:  /home/dominic/kim_ws/devel/lib/cmake/GTSAM/../../../include
+[36m--[0m Found CUDA: /usr/local/cuda-10.0 (found suitable exact version "10.0")
+[36m--[0m Found OpenCV: /usr/local (found suitable version "3.4.1", minimum required is "3.3.1")
+[36m--[0m Vocabulary file exists, will not download.
+Cloning into 'googletest-src'...
+Note: checking out 'v1.10.x'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 703bd9ca Googletest export
+[36m--[0m The C compiler identification is GNU 7.5.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Found PythonInterp: /usr/bin/python (found version "2.7.17")
+[36m--[0m ===============================================================
+[36m--[0m ================  Configuration Options  ======================
+[36m--[0m CMAKE_CXX_COMPILER_ID type                : GNU
+[36m--[0m CMAKE_CXX_COMPILER_VERSION                : 7.5.0
+[36m--[0m Build flags
+[36m--[0m   Build type                              : Release
+[36m--[0m   C compilation flags (Release)           :  -O3 -DNDEBUG
+[36m--[0m   C++ compilation flags (Release)         :  -O3 -DNDEBUG
+[36m--[0m Configuring done
+[33m[1mCMake Warning[0m at /home/dominic/kim_ws/src/Kimera-VIO/CMakeLists.txt:154 (add_executable):
+  Cannot generate a safe runtime search path for target stereoVIOEuroc
+  because there is a cycle in the constraint graph:
+
+    dir 0 is [/usr/local/cuda-10.0/lib64]
+    dir 1 is [/home/dominic/kim_ws/build/kimera_vio]
+    dir 2 is [/usr/local/lib]
+      dir 3 must precede it due to runtime library [libKimeraRPGO.so]
+      dir 4 must precede it due to runtime library [libgtsam_unstable.so.4]
+    dir 3 is [/home/dominic/kim_ws/src/Kimera-RPGO/build]
+    dir 4 is [/home/dominic/kim_ws/devel/lib]
+      dir 3 must precede it due to runtime library [libKimeraRPGO.so]
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/dominic/kim_ws/src/Kimera-VIO/CMakeLists.txt:196 (add_executable):
+  Cannot generate a safe runtime search path for target testKimeraVIO because
+  there is a cycle in the constraint graph:
+
+    dir 0 is [/usr/local/cuda-10.0/lib64]
+    dir 1 is [/home/dominic/kim_ws/build/kimera_vio]
+    dir 2 is [/usr/local/lib]
+      dir 3 must precede it due to runtime library [libKimeraRPGO.so]
+      dir 4 must precede it due to runtime library [libgtsam_unstable.so.4]
+    dir 3 is [/home/dominic/kim_ws/src/Kimera-RPGO/build]
+    dir 4 is [/home/dominic/kim_ws/devel/lib]
+      dir 3 must precede it due to runtime library [libKimeraRPGO.so]
+
+  Some of these libraries may not be found correctly.
+
+
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/dominic/kim_ws/build/kimera_vio
