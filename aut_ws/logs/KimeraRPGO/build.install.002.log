@@ -1,7 +1,0 @@
-[ 80%] Built target KimeraRPGO
-[100%] Built target RpgoReadG2o
-[36mInstall the project...[0m
--- Install configuration: "Release"
--- Up-to-date: /home/dominic/kim_ws/devel/lib/libKimeraRPGO.so
--- Up-to-date: /home/dominic/kim_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOTargets.cmake
--- Up-to-date: /home/dominic/kim_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOTargets-release.cmake
