@@ -1,0 +1,1 @@
+/home/dominator/blind_eagle/aut_ws/devel/.private/eagle/lib/pkgconfig/eagle.pc

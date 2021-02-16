@@ -1,0 +1,6 @@
+devel_space: /home/dominator/blind_eagle/aut_ws/devel
+install: false
+install_space: /home/dominator/blind_eagle/aut_ws/install
+profile: default
+source_space: /home/dominator/blind_eagle/aut_ws/src
+workspace: /home/dominator/blind_eagle/aut_ws

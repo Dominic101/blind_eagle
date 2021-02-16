@@ -1,0 +1,8 @@
+prefix=/home/dominator/blind_eagle/aut_ws/devel/.private/eagle
+
+Name: eagle
+Description: Description of eagle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
