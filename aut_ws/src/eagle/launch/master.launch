@@ -1,0 +1,4 @@
+<launch>
+  <node name = "globalPlanNode" pkg="eagle" type="rosPlan" output="screen">
+  </node>
+</launch>
